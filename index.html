@@ -1,10 +1,8 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.9,user-scalable=0"/>
+<!-- saved from url=(0057)https://my.stu.edu.cn/health-report/validate-stu-user-cas -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-merge-styles="true"></style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.9,user-scalable=0">
     <title>验证结果</title>
     <style type="text/css">
 		div{
@@ -20,7 +18,7 @@
         }
 
     </script>
-    <style type="text/css">
+<style type="text/css">
   @media print {
     .ms-editor-squiggler {
         display:none !important;
@@ -37,19 +35,27 @@
         display:none !important;
     }
   }
-</head>
+  .ms-editor-squiggler {
+    all: initial;
+    display: block !important;
+    height: 0px !important;
+    width: 0px !important;
+  }</style></head>
 <body style="margin:20px auto;width:90%" onload="reloadImg()" data-new-gr-c-s-check-loaded="14.988.0" data-gr-ext-installed="">
 <div>您的进入校园验证结果</div>
 
 <div style="color:#00AA00;">
-	<div><img id="headerPhoto" style="max-width:150px" src="./验证结果_files/81cd541d8797c967f1085025c2f63405"></div>
+	<div><img id="headerPhoto" style="max-width:150px" src="boy.jpg"/></div>
     <span style="font-size:26px">江宁</span><!--，<span th:text="${user.gender}"></span>，<span th:text="${user.age}"></span>岁-->
     <br>
     部门：<span>文学院</span>
 
     <br>
     <div style="color:black">原因:<span>申请外出后回来</span></div>
-  <!--  <br/>当前时间：<span></span>-->
+   <!-- <div style="color:black" th:if="${user.email.endsWith('@stu')}">原因:水产生物技术大会</div>-->
+    <span>您可以进校</span>
+    <br><img src=src="right.jpg" style="width: 150px">
+   <!--  <br/>当前时间：<span></span>-->
 </div>
 <div style="font-size: 20px">当前时间是：<span><script type="text/javascript">
     var t=new Date();
