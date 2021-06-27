@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,18 +20,35 @@
         }
 
     </script>
+    <style type="text/css">
+  @media print {
+    .ms-editor-squiggler {
+        display:none !important;
+    }
+  }
+  .ms-editor-squiggler {
+    all: initial;
+    display: block !important;
+    height: 0px !important;
+    width: 0px !important;
+  }</style><style type="text/css">
+  @media print {
+    .ms-editor-squiggler {
+        display:none !important;
+    }
+  }
 </head>
-<body style="margin:20px auto;width:90%" onload="reloadImg()">
-<div>您的出校验证结果</div>
+<body style="margin:20px auto;width:90%" onload="reloadImg()" data-new-gr-c-s-check-loaded="14.988.0" data-gr-ext-installed="">
+<div>您的进入校园验证结果</div>
 
-<div  style="color:#00AA00;">
-	<div><img id="headerPhoto" style="max-width:200px" src="boy.jpg"/></div>
-    <span >江宁</span>
-    <br/>
+<div style="color:#00AA00;">
+	<div><img id="headerPhoto" style="max-width:150px" src="./验证结果_files/81cd541d8797c967f1085025c2f63405"></div>
+    <span style="font-size:26px">马瑞泽</span><!--，<span th:text="${user.gender}"></span>，<span th:text="${user.age}"></span>岁-->
+    <br>
     部门：<span>文学院</span>
 
-    <br/> <span >您可以出校</span>
-    <br/><img src="right.jpg" style="width: 150px"/>
+    <br>
+    <div style="color:black">原因:<span>申请外出后回来</span></div>
   <!--  <br/>当前时间：<span></span>-->
 </div>
 <div style="font-size: 20px">当前时间是：<span><script type="text/javascript">
@@ -45,4 +64,3 @@
     document.write(showtime);
     </script></span></div>
 </body>
-
